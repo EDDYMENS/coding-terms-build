@@ -16,3 +16,4 @@ use App\Http\Controllers\MainController;
 
 
 Route::get('/', [MainController::class, 'index']);
+Route::get('/term/{term}', [MainController::class, 'term']);
