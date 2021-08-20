@@ -105,3 +105,19 @@ body {
     font-size: 40px;
     font-weight: 2;
 }
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .w-xs-100 {
+      width: 100% !important;
+    }
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .w-sm-100 {
+      width: 100% !important;
+    }
+  }
+  
