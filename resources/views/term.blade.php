@@ -5,6 +5,11 @@
   <a class="navbar-brand col-md-3 col-lg-2 me-0 w-xs-100 text-center" href="#"><h3>Dev Glossary</h3></a>
 
   <input class="form-control form-control-dark w-100 basicAutoComplete" type="text" placeholder="Type a term to search" aria-label="Search" >
+  <div class="navbar-nav w-xs-100">
+    <div class="nav-item text-nowrap">
+      <button class=" btn btn-secondary btn-lg w-xs-100">Search</button>
+    </div>
+  </div>
 </header>
 
 <div class="container-fluid">
@@ -87,7 +92,7 @@
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <p class="term-title text-center">Code Smell</p>
+        <p class="term-title text-center">Search Result</p>
         <div class="btn-toolbar mb-2 mb-md-0">
           <button type="button" class="btn btn-outline-secondary ">
             &nbsp;&nbsp;&nbsp;Share&nbsp;&nbsp;&nbsp;
@@ -97,6 +102,7 @@
       <div class="container">
     <div class="row">
         <div class="col-1"></div>
+        @if(mt_rand(0,1) == 0)
         <div class="col-10 card"> 
              <article class="blog-body">
                 <p>I will make this brief.</p>
@@ -117,6 +123,23 @@
                 </center>
                 <br><br>
         </div>
+        @else
+        <div class="col-10 card"> 
+             <article class="blog-body">
+                    kjkldfjkldjfklj
+                    <br><br>
+                <center>
+                    <div class="text-center btn-group"> <a
+                            href="https://twitter.com/search?q=https://eddymens.com/blog/getting-your-windows-files-and-folders-to-behave-as-on-linux"
+                            class="btn btn-default btn-outline-secondary white-inner-text" target="_blank">Comment on
+                            Twitter</a> <a
+                            href="https://twitter.com/intent/tweet?text=Getting your Windows files and folders to behave as on Linux, https://eddymens.com/blog/getting-your-windows-files-and-folders-to-behave-as-on-linux"
+                            class="btn btn-default btn-outline-secondary white-inner-text" target="_blank">Share on
+                            Twitter</a>
+                </center>
+                <br><br>
+        </div>
+        @endif
     </div>
     <div class="col-1"></div>
     </article>
