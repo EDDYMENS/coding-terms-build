@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
+
 
 class MainController extends Controller
 {
@@ -11,8 +13,10 @@ class MainController extends Controller
         return view('search');
     }
 
-    public function term()
+    public function term(Request $request, $term)
     {
-        return view('term');
+        $title = Str::of($term)->slug()->lower();
+        $definition = Str::markdown(view('markdown.'.$title)->render());
+        return view('term')->with(compact('definition'));
     }
 }

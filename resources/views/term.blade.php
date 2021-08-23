@@ -2,7 +2,7 @@
   <body>
     
 <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-  <a class="navbar-brand col-md-3 col-lg-2 me-0 w-xs-100 text-center" href="#"><h3>Dev Glossary</h3></a>
+  <a class="navbar-brand col-md-3 col-lg-2 me-0 w-xs-100 text-center" href="#"><h3>Coding Terms</h3></a>
 
   <input class="form-control form-control-dark w-100 basicAutoComplete" type="text" placeholder="Type a term to search" aria-label="Search" >
   <div class="navbar-nav w-xs-100">
@@ -81,7 +81,6 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
               <span data-feather="file-text"></span>
               Year-end sale
             </a>
@@ -92,25 +91,21 @@
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <p class="term-title text-center">Search Result</p>
+        <p class="term-title text-center">Code Smell</p>
         <div class="btn-toolbar mb-2 mb-md-0">
           <button type="button" class="btn btn-outline-secondary ">
-            &nbsp;&nbsp;&nbsp;Share&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-copy"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy&nbsp;&nbsp;&nbsp;
           </button>
         </div>
       </div>
       <div class="container">
     <div class="row">
         <div class="col-1"></div>
-        @if(mt_rand(0,1) == 0)
+        @if(mt_rand(0,1) >= 0)
         <div class="col-10 card"> 
              <article class="blog-body">
-                <p>I will make this brief.</p>
-                <p>If you write software on a Windows machine but then usually deploy on a Linux server you probably
-                    have run into the trouble of your software breaking because of the difference in the way both OS
-                    handles file names and the issue with referencing the wrong case of the name in your code.</p>
-                <p>Basically you can get away with calling on <code>index.js</code> as <code>Index.js</code> on Windows
-                    but not on Linux. </p>
+                  {!! $definition !!}}
                     <br><br>
                 <center>
                     <div class="text-center btn-group"> <a
