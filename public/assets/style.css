@@ -120,4 +120,8 @@ body {
       width: 100% !important;
     }
   }
-  
+
+  .badge.custom-badge {
+    font-size: 1.1em;
+    cursor: hand;
+  }

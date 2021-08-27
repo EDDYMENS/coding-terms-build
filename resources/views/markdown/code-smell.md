@@ -14,7 +14,7 @@ Let me introduce myself.
 
 **MacDown** is created as a simple-to-use editor for Markdown documents. I render your Markdown contents real-time into HTML, and display them in a preview panel.
 
-![MacDown Screenshot](https://d.pr/i/10UGP+)
+<!-- ![MacDown Screenshot](https://d.pr/i/10UGP+) -->
 
 I support all the original Markdown syntaxes. But I can do so much more! Various popular but non-standard syntaxes can be turned on/off from the [**Markdown** preference pane](#markdown-pane).
 
@@ -189,7 +189,7 @@ If you type three asterisks `***` or three dashes `---` on a line, I'll display 
 
 ## <a name="markdown-pane"></a>The Markdown Preference Pane
 This is where I keep all preferences related to how I parse markdown into html.  
-![Markdown preferences pane](https://d.pr/i/RQEi+)
+<!-- ![Markdown preferences pane](https://d.pr/i/RQEi+) -->
 
 ### Document Formatting
 The ***Smartypants*** extension automatically transforms straight quotes (`"` and `'`) in your text into typographer’s quotes (`“`, `”`, `‘`, and `’`) according to the context. Very useful if you’re a typography freak like I am. Quote and Smartypants are syntactically incompatible. If both are enabled, Quote takes precedence.
@@ -230,13 +230,14 @@ You can also use waves (`~`) instead of back ticks (`` ` ``):
 print('Hello world!')
 ~~~
 
-
+<details>
+<summary>Languages:</summary>
 You can add an optional language ID at the end of the first line. The language ID will only be used to highlight the code inside if you tick the ***Enable highlighting in code blocks*** option. This is what happens if you enable it:
-
-![Syntax highlighting example](https://d.pr/i/9HM6+)
+</details>
+<!-- ![Syntax highlighting example](https://d.pr/i/9HM6+) -->
 
 I support many popular languages as well as some generic syntax descriptions that can be used if your language of choice is not supported. See [relevant sections on the official site](https://macdown.uranusjr.com/features/) for a full list of supported syntaxes.
-
+</details>
 
 ### Inline Formatting
 
