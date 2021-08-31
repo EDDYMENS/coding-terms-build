@@ -15,7 +15,7 @@ use App\Http\Controllers\MainController;
 */
 
 
-Route::get('/', [MainController::class, 'index']);
+Route::get('/', [MainController::class, 'term']);
 Route::get('/search', function(){
     return [
         "Google Cloud Platform",
@@ -24,4 +24,4 @@ Route::get('/search', function(){
         "Digital Ocean"
     ];
 });
-Route::get('/term/{term}', [MainController::class, 'term']);
+Route::get('/term/{term?}', [MainController::class, 'term']);

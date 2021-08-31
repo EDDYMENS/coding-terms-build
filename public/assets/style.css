@@ -123,5 +123,9 @@ body {
 
   .badge.custom-badge {
     font-size: 1.1em;
-    cursor: hand;
+    cursor: pointer;
+  }
+
+  a:hover, a:active, a:link {
+    text-decoration: none;
   }
