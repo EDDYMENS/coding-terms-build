@@ -129,3 +129,7 @@ body {
   a:hover, a:active, a:link {
     text-decoration: none;
   }
+
+  p {
+    font-size: 19px;
+  }

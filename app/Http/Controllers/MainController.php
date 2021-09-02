@@ -8,7 +8,7 @@ use Illuminate\Support\Str;
 
 class MainController extends Controller
 {
-    private $allTerms = 'all_terms';
+    private $allTerms = 'all-terms';
     public function term(Request $request, $term=null)
     {
         $term = ($term)? $term : $this->allTerms;
@@ -36,8 +36,7 @@ class MainController extends Controller
         $titleList = [];
         foreach($termList as $term) {
             $termWithoutMD = str_replace('.md', '', $term);
-            $formattedTitle = $this->prepareTitles($termWithoutMD)['formattedTitle'];
-            $titleList[] = $formattedTitle;
+            $titleList[] = $termWithoutMD;
         }
         $allKey = array_search($this->allTerms, $titleList);
         unset($titleList[$allKey]);

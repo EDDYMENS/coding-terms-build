@@ -1,3 +1,3 @@
 # MVC
 
-This is a description of what MVC is 
+Change the content of MVC and see what happens with git
