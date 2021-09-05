@@ -133,3 +133,19 @@ body {
   p {
     font-size: 19px;
   }
+
+pre{
+	background-color: #eee;
+	padding: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	overflow: auto;
+}
+code{
+	background-color: #eee;
+	padding: 1px 3px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;	
+}

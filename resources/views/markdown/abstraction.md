@@ -7,7 +7,7 @@ The use of this word in software development is not too far off from the general
 A good example of an abstraction is a {{linkToPost('payment processor')}}.
 A payment processor provides you with ways to accept payments from your customers within your software.
 
-When we forward payment details from our app to the payment processor, a lot of processing is done by the processor itself, this could range from currency exchanges to VAT calculations. There is also the acquiring bank who then does some processing of its own sorting out the {{linkToPost('transaction')}} for the customer then finally returning a response to our app through the processor.
+When we forward payment details from our app to the payment processor, a lot of processing is done by the processor itself, this could range from currency exchanges to VAT calculations. There is also the acquiring bank who then does some processing of its own sorting out the transaction for the customer then finally returning a response to our app through the processor.
 
 But mostly programmers integrating with these payment processors don't have to think too much about  all that. Most of it is abstracted away and the programmer is left with very little to deal with to integrate these  payment processors into their apps.
 
