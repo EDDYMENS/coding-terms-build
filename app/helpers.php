@@ -1,6 +1,30 @@
 <?php
 
-if(!function_exists('linkToPost')) {
+if(!function_exists('undefinedLinks') && defined('STDERR')) {
+    function undefinedLinks() {
+       $termList = [];
+       $postList = array_slice(scandir('resources/views/markdown'), 2);
+       Session::put('postList', $postList);
+       if(!function_exists('linkToPost')) {
+           function linkToPost($title, $altTitle=null) {
+               $postList = Session::get('postList');
+               $formattedTitle = str_replace(' ', '-', strtolower($title));
+               $formattedAltTitle = str_replace(' ', '-', strtolower($altTitle));
+               if(!in_array($formattedTitle.'.md', $postList) && !in_array($formattedAltTitle.'.md', $postList)) {
+                   Session::push('unlinkedList', [$formattedTitle, $formattedAltTitle]);
+                }
+                return $title;
+            }
+        }
+       foreach($postList as $post) {
+           Str::markdown(view('markdown.'.str_replace('.md', '', $post))->with(compact('termList'))->render());
+        }
+       dump(Session::get('unlinkedList'));
+       Session::forget('unlinkedList');
+    }
+}
+
+if(!function_exists('linkToPost') && !function_exists('undefinedLinks')) {
     function linkToPost($title, $altTitle=null) {
         $titleToPost = strtolower(str_replace(' ', '-', $title));
         $altTitleToPost = strtolower(str_replace(' ', '-', $altTitle));
@@ -11,11 +35,5 @@ if(!function_exists('linkToPost')) {
             return '['.$title.'](/term/'.$titleToPost.')';
         }
         return $title;
-    }
-}
-
-if(!function_exists('undefinedLinks')) {
-    function undefinedLinks() {
-       return [];
     }
 }
