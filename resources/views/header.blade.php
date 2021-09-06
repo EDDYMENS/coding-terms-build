@@ -8,7 +8,7 @@
     <title>Coding Terms</title>
     
     <!-- Bootstrap core CSS -->
-<link href="/assets/bootstrap.min.css" rel="stylesheet">
+<link href="/assets/main.min.css" rel="stylesheet">
 <meta name="theme-color" content="#7952b3">
 
     <style>
