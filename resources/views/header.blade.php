@@ -8,7 +8,11 @@
     <title>Coding Terms</title>
     
     <!-- Bootstrap core CSS -->
+@if( app('request')->input('dev'))
+<link href="/assets/main.css" rel="stylesheet">
+@else
 <link href="/assets/main.min.css" rel="stylesheet">
+@endif
 <meta name="theme-color" content="#7952b3">
 
     <style>
