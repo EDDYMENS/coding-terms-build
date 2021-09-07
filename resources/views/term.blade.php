@@ -39,20 +39,6 @@
   </div>
 </body>
 <script>
-  function search() {
-      var input, filter, termLinks, a, i, txtValue;
-      input = document.getElementById("search");
-      filter = input.value.toLowerCase();
-      termLinks = document.getElementsByClassName("term-link");
-      for (i = 0; i < termLinks.length; i++) {
-          var term = termLinks[i];
-          txtValue = term.textContent || term.innerText;
-          if (txtValue.toLowerCase().indexOf(filter) > -1) {
-              term.style.display = "";
-          } else {
-              term.style.display = "none";
-          }
-      }
-  }
+function search(){var e,t,n;for(e=document.getElementById("search").value.toLowerCase(),t=document.getElementsByClassName("term-link"),n=0;n<t.length;n++){var a=t[n];(a.textContent||a.innerText).toLowerCase().indexOf(e)>-1?a.style.display="":a.style.display="none"}}
 </script>
 </html>
