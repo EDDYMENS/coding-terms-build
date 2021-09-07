@@ -7,7 +7,6 @@
     <meta name="author" content="Eddymens">
     <title>Coding Terms</title>
     
-    <!-- Bootstrap core CSS -->
 @if( app('request')->input('dev'))
 <link href="/assets/main.css" rel="stylesheet">
 @else
