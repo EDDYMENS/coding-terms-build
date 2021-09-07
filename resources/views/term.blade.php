@@ -6,10 +6,11 @@
     <a class="navbar-brand col-md-3 col-lg-2 me-0 w-xs-100 text-center" href="/">
       <h3>Coding Terms</h3>
     </a>
-
-    <input class="form-control form-control-dark w-100" type="text"
+    @if($term == 'all-terms')
+      <input class="form-control form-control-dark w-100" type="text"
       placeholder="Search for a term" aria-label="Search" id="search" onkeyup="search()">
-  </header>
+    @endif 
+    </header>
 
   <div class="container-fluid">
     <div class="row">
