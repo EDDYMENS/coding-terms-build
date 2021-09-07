@@ -134,7 +134,7 @@ body {
     font-size: 19px;
   }
 
-pre{
+pre {
 	background-color: #eee;
 	padding: 10px;
 	-webkit-border-radius: 5px;
@@ -142,10 +142,14 @@ pre{
 	border-radius: 5px;
 	overflow: auto;
 }
-code{
+code {
 	background-color: #eee;
 	padding: 1px 3px;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;	
+}
+
+.text-capitalize {
+  text-transform: uppercase;
 }

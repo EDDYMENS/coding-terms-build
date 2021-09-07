@@ -16,7 +16,7 @@
 
       <main class="col-md-12 ms-sm-auto col-lg-12 px-md-12">
         <div class="flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <p class="term-title text-center">{{$formattedTitle}}</p>
+          <p class="term-title text-center text-capitalize">{{$formattedTitle}}</p>
         </div>
         <div class="container">
           <div class="row">
