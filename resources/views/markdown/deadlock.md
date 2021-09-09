@@ -1,5 +1,5 @@
 ## Definition
-Deadlock is a scenario where two or multiple processes or computer programs get blocked because every one of them is holding a resource while also waiting on the other process to release its resources it needs.
+Deadlock is a scenario where two or multiple processes or computer programs get blocked because every one of them is holding a resource while also waiting on the other process to release the resources it needs.
 
 In the early era of computer systems, the {{linkToPost('operating system')}} could run only one program so all the system resources were utilized by that program. Later, operating systems managed to run multiple programs where each program was required to list out the resources it needs beforehand. Today, operating systems also offer dynamic resource allocation, which implies that the program can even ask for more resources once it starts running. Failing to get the resource in such a case results in a deadlock.
 
