@@ -16,12 +16,4 @@ use App\Http\Controllers\MainController;
 
 
 Route::get('/', [MainController::class, 'term']);
-Route::get('/search', function(){
-    return [
-        "Google Cloud Platform",
-        "Amazon AWS",
-        "Docker",
-        "Digital Ocean"
-    ];
-});
 Route::get('/term/{term?}', [MainController::class, 'term']);
