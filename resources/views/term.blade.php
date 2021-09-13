@@ -7,11 +7,15 @@
       <h3>Coding Terms</h3>
     </a>
     @if($term == 'all-terms')
-      <input class="form-control form-control-dark w-100" type="text"
+      <input class="form-control form-control-dark w-70 w-xs-100" type="text"
       placeholder="Search for a term" aria-label="Search" id="search" onkeyup="search()">
-    @endif 
+    @endif
+    <div class="navbar-nav w-xs-100">
+      <div class="nav-item text-nowrap">
+        <a class="btn bg-danger btn-lg w-xs-100" target="blank" href="https://easybiz.typeform.com/to/TznHJjSn">Tech Job Alert</a>
+      </div>
+    </div>
     </header>
-
   <div class="container-fluid">
     <div class="row">
 

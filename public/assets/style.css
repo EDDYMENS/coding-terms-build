@@ -43,6 +43,19 @@ body {
     font-weight: 2;
 }
 
+.w-70 {
+  width: 70% !important
+}
+
+.bg-danger {
+  background-color: #dc3545!important;
+}
+
+.btn-lg {
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: .3rem;
+}
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
