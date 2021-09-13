@@ -12,7 +12,7 @@
     @endif
     <div class="navbar-nav w-xs-100">
       <div class="nav-item text-nowrap">
-        <a class="btn bg-danger btn-lg w-xs-100" target="blank" href="https://easybiz.typeform.com/to/TznHJjSn">Tech Job Alert</a>
+        <a class="btn bg-danger btn-lg w-xs-100" target="blank" href="https://easybiz.typeform.com/to/TznHJjSn">Signup for tech jobs</a>
       </div>
     </div>
     </header>
