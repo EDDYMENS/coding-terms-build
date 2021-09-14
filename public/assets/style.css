@@ -123,3 +123,7 @@ code {
   -moz-border-radius: 0 !important;
   border-radius: 0 !important;
 }
+
+.card {
+  border: none !important;
+}
