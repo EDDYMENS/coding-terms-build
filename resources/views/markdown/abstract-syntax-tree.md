@@ -1,5 +1,5 @@
 ## Definition
-An abstract syntax tree (AST) is a hierarchical tree-like structure that represents the {{linkToPost('syntax')}} of a computer language. This produced tree-like structure is used by {{linkToPost('compilers', 'compiler')}} and {{linkToPost('interpreters', 'interpreter')}} to better convert {{linkToPost('code')}} into something the computer can further understand.
+An abstract syntax tree (AST) is a hierarchical tree-like structure that represents the {{linkToPost('syntax')}} of a computer language. This produced tree-like structure is used by {{linkToPost('compilers', 'compiler')}} and {{linkToPost('interpreters', 'interpreter')}} to better convert {{linkToPost('code', 'source code')}} into something the computer can further understand.
 
 ## Use cases and Examples
 Here is a mathematical example:

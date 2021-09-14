@@ -12,6 +12,6 @@ When we forward payment details from our app to the payment processor, a lot of 
 But mostly programmers integrating with these payment processors don't have to think too much about  all that. Most of it is abstracted away and the programmer is left with very little to deal with to integrate these  payment processors into their apps.
 
 ## Summary
-Abstraction happens at different levels of computing from logic gates, {{linkToPost('compilers', 'compiler')}} to the {{linkToPost('code')}} itself. 
+Abstraction happens at different levels of computing from logic gates, {{linkToPost('compilers', 'compiler')}} to the {{linkToPost('code', 'source code')}} itself. 
 
 It greatly helps programmers to focus on newer problems instead of every bolt and nut of their software or the hardware they are working with.

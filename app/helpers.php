@@ -11,13 +11,16 @@ if(!function_exists('undefinedLinks') && defined('STDERR')) {
                $formattedTitle = str_replace(' ', '-', strtolower($title));
                $formattedAltTitle = str_replace(' ', '-', strtolower($altTitle));
                if(!in_array($formattedTitle.'.md', $postList) && !in_array($formattedAltTitle.'.md', $postList)) {
-                   Session::push('unlinkedList', [$formattedTitle, $formattedAltTitle]);
+                   $markdownFIleName = Session::get('current-parsed-markdown');
+                   Session::push('unlinkedList', [$formattedTitle, $formattedAltTitle, $markdownFIleName]);
                 }
                 return $title;
             }
         }
        foreach($postList as $post) {
+           Session::put('current-parsed-markdown', $post);
            Str::markdown(view('markdown.'.str_replace('.md', '', $post))->with(compact('termList'))->render());
+           Session::forget('current-parsed-markdown');
         }
        dump(Session::get('unlinkedList'));
        Session::forget('unlinkedList');
