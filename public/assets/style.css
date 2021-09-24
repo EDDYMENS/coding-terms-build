@@ -80,7 +80,7 @@ body {
     text-decoration: none;
   }
 
-  p {
+  p, ul {
     font-size: 19px;
   }
 
