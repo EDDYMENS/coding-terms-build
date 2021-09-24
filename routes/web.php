@@ -17,3 +17,10 @@ use App\Http\Controllers\MainController;
 
 Route::get('/', [MainController::class, 'term']);
 Route::get('/term/{term?}', [MainController::class, 'term']);
+Route::get('/404', [MainController::class, 'allRoutes'])->name('404');
+Route::get('/sitemap.xml', function(){
+    return response(View('sitemap'))
+            ->withheaders([
+                'Content-Type' => 'text/xml'
+            ]);
+})->name('sitemap');

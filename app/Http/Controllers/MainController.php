@@ -23,6 +23,12 @@ class MainController extends Controller
         return view('term')->with(compact('definition', 'formattedTitle', 'termList', 'term'));
     }
 
+    public function allRoutes(Request $request)
+    {
+        $template = $request->route()->getName();
+        return view($template);
+    }
+
     private function prepareTitles($term)
     {
         $title = Str::of($term)->slug();

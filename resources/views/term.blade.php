@@ -46,4 +46,8 @@
 <script>
 function search(){var e,t,n;for(e=document.getElementById("search").value.toLowerCase(),t=document.getElementsByClassName("term-link"),n=0;n<t.length;n++){var a=t[n];(a.textContent||a.innerText).toLowerCase().indexOf(e)>-1?a.style.display="":a.style.display="none"}}
 </script>
+<!--hidden links-->
+<template>
+  <a href="/404" href="/sitemap.xml"></a>
+</template>
 </html>
