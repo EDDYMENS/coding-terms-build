@@ -1,11 +1,11 @@
 ## Definition
-Session storage is a web storage type that can store data ({{linkToPost('key value pairs', 'key value pair')}}) in the browser. It will hold the data until the tab or browser is closed. Once the browser or tab is closed, the stored data is removed.
+Session storage is a web storage type that can store data ({{linkToPost('key-value pairs', 'key value pair')}}) in the browser. It will hold the data until the tab or browser is closed. Once the browser or tab is closed, the stored data is removed.
 
 
 ## Use Cases and Examples
 In other to give users a good experience on the web, most web applications store some useful information about the user when they collect them the first time, this way the user doesn't have to provide it again and again.
 
-This kind of information can be stored on the {{linkToPost('server')}} or in the users browser.Information is stored within the browser because of how immediate its available and can be used to provide a smooth experience as opposed to getting this from the server.
+This kind of information can be stored on the {{linkToPost('server')}} or in the user's browser. Information is stored within the browser because of how immediate its available and can be used to provide a smooth experience as opposed to getting this from the server.
 
 There are many ways to store the information on the browser, this includes the very old way by using a {{linkToPost('cookie')}} and newer options such as {{linkToPost('local storage')}} and session storage. The key thing to consider when it comes to session storage is the fact that all the information it holds is lost once the user closes the tab, developers need to be aware of this and use it where it fits such a use case.
 
