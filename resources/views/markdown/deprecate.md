@@ -6,7 +6,7 @@ In programming, the process of deprecation occurs when a certain piece of code w
 
 An example of deprecation is the use of the `gets()` function in the C {{linkToPost('programming language')}}.
 
-Deprecated code usually comes up when some code has long been replaced, but its still kept around for safety reason, incase its been used by some other code. Many forms of warning are usually employed either in {{linkToPost('code editors', 'code editor')}} or {{linkToPost('documentation')}} to warn developers to not use this deprecated code in new code as it will be phased out over time.
+Deprecated code usually comes up when some code has long been replaced, but it's still kept around for safety reasons, in case it's been used by some other code. Many forms of warning are usually employed either in {{linkToPost('code editors', 'code editor')}} or {{linkToPost('documentation')}} to warn developers to not use this deprecated code in new code as it will be phased out over time.
 
 ## Summary
 
