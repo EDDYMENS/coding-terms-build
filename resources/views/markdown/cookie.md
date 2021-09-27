@@ -10,4 +10,4 @@ Ad serving companies rely heavily on cookies to store your search information an
 
 ## Summary
 Cookies are accessible by browser, the website you are on, or the third party, all meant to provide a more personalized experience to you and improve the website's usability.
-There are other ways to store data within the browser including {{linkToPost('localstorage')}}, {{linkToPost('session storage')}}, {{linkToPost('web SQL')}} etc.
+There are other ways to store data within the browser including {{linkToPost('localstorage', 'local storage')}}, {{linkToPost('session storage')}}, {{linkToPost('web SQL')}} etc.

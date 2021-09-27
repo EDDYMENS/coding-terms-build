@@ -5,7 +5,7 @@ Spaghetti code is code that is difficult to understand and eventually maintain b
 
 One reference used in most examples is the `Goto` statement in code.
 
- Usually, code is meant to be executed from the top to bottom, but {{linkToPost('keywords')}} such as `Goto` allow the execution to be moved to a previous line or a line entirely in a different file somewhere.
+ Usually, code is meant to be executed from the top to bottom, but {{linkToPost('keywords', 'keyword')}} such as `Goto` allow the execution to be moved to a previous line or a line entirely in a different file somewhere.
 
 This makes it ever more difficult to follow the execution path.
 
@@ -19,7 +19,7 @@ abc:
 echo "x is an even number";
 ```
 
-Most developers avoid the use of the `Goto` even if the {{linkToPost('programming language')}} in use supports it. However there are still many ways to end up with a spaghetti {{linkToPost('codebase')}}. Eg: By not organizing codebase files properly or in some situations mixing up different programming language in a messy way eg: mixing up HTML with PHP.
+Most developers avoid the use of the `Goto` even if the {{linkToPost('programming language')}} in use supports it. However there are still many ways to end up with a spaghetti {{linkToPost('codebase', 'source code')}}. Eg: By not organizing codebase files properly or in some situations mixing up different programming language in a messy way eg: mixing up HTML with PHP.
 
 ```PHP
 $results = array(1, 2, 3, 4, 5, 6);
@@ -34,4 +34,4 @@ for($i = 0; $i < $max; $i++) {
 ```
 
 ## Summary
-Most developers start projects without knowing it will end up with spaghetti code, it usually happens over time, hence developers usually need to learn patterns to follow when writing code, these are usually referred to as {{linkToPost('software patterns')}} and sometimes going against them is known as an {{linkToPost('anti-pattern')}}.
+Most developers start projects without knowing it will end up with spaghetti code, it usually happens over time, hence developers usually need to learn patterns to follow when writing code, these are usually referred to as {{linkToPost('software patterns', 'design patterns')}} and sometimes going against them is known as an {{linkToPost('anti-pattern')}}.

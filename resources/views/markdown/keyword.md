@@ -9,7 +9,7 @@ Basically, any part of the {{linkToPost('syntax')}} where the developer has the 
 For example, some of the keywords in the C programming language include: 
 - **int:** Highlights that the variable will hold an integer value.
 - **long:** Highlights that the variable will hold a large integer value.
-- **break:** Used to immediately terminate any {{linkToPost('loop')}} or {{linkToPost('iteration')}}.
+- **break:** Used to immediately terminate any {{linkToPost('loop')}} or {{linkToPost('iteration', 'loop')}}.
 - **if:** Allows the program to enter the specific code section once certain conditions are met.
 
 All the above keywords are frequently used by programmers while writing C {{linkToPost('code')}}. Keywords can be different between programming languages but many languages share common keywords like `if`.

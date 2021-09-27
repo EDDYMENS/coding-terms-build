@@ -1,6 +1,6 @@
 ## Definition
 
-**MVC** is an abbreviation for **Model View Controller**, a way to structure your {{linkToPost('codebase')}} such that everything regarding what end-users sees (**View**), everything regarding data (**Model**), and everything regarding logic (**Controller**) are all stored in separate places within the codebase.
+**MVC** is an abbreviation for **Model View Controller**, a way to structure your {{linkToPost('codebase', 'source code')}} such that everything regarding what end-users sees (**View**), everything regarding data (**Model**), and everything regarding logic (**Controller**) are all stored in separate places within the codebase.
 
 Also, this involves maintaining a clear path for all three components to work together to achieve a cohesive software application.
 
@@ -16,6 +16,6 @@ Sometimes they might even split up into teams focusing on just one part of the t
 Also implementing something like this contributes to good software architecture.
 
 ## Summary
-There are many kinds of {{linkToPost('design patterns')}} similar to MVC but with different philosophies with some suiting different types of software applications better.
+There are many kinds of {{linkToPost('design patterns', 'design pattern')}} similar to MVC but with different philosophies with some suiting different types of software applications better.
 
 For example, MVC is predominately used in web development. Also most of the time you won't have to structure your software to adopt this approach as you will likely be working with a {{linkToPost('web framework')}} that will already have this in place.

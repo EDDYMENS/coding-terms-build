@@ -20,4 +20,4 @@ Above is an example of a source code in the C programming language and this is a
 For bigger and more complex programs the source code usually spans multiple lines and or multiple files.
 
 ## Summary
-Source code is one of the core parts of a program a programmer works on. It includes declarations, instructions, {{linkToPost('functions')}}, {{linkToPost('loops')}}, and other statements that might be particular to the programming language in use.
+Source code is one of the core parts of a program a programmer works on. It includes declarations, instructions, {{linkToPost('functions', 'function')}}, {{linkToPost('loops', 'loop')}}, and other statements that might be particular to the programming language in use.

@@ -18,7 +18,7 @@ adder(1,2);
 ```
 
 What you have above is a function called **adder** that takes two parameters and returns the sum of `a` and `b`. The last bit of the {{linkToPost('code')}} shows how you will use this function. 
-You will refer to the values you pass in to replace the parameters as {{linkToPost('arguments')}}.
+You will refer to the values you pass in to replace the parameters as {{linkToPost('arguments', 'argument')}}.
 
 ## Summary
 
