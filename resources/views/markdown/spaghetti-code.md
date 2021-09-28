@@ -34,4 +34,4 @@ for($i = 0; $i < $max; $i++) {
 ```
 
 ## Summary
-Most developers start projects without knowing it will end up with spaghetti code, it usually happens over time, hence developers usually need to learn patterns to follow when writing code, these are usually referred to as {{linkToPost('software patterns', 'design patterns')}} and sometimes going against them is known as an {{linkToPost('anti-pattern')}}.
+Most developers start projects without knowing it will end up with spaghetti code, it usually happens over time, hence developers usually need to learn patterns to follow when writing code, these are usually referred to as {{linkToPost('software patterns', 'design pattern')}} and sometimes going against them is known as an {{linkToPost('anti-pattern')}}.

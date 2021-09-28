@@ -7,7 +7,7 @@ Now, in programming, you have these same kinds of expressions that take in param
 
 ## Use Cases and Examples
 
-Alright so lets express the mathmatical expression as a function in the Javascript programming language.
+Alright so lets express the mathematical expression as a function in the Javascript programming language.
 
 ```
 // declaring the function
@@ -29,3 +29,4 @@ Think of what `!` means in our everyday world, if you see it on a signboard you 
 ## Summary
 
 Functions are the most basic way a developer can reuse any piece of code. There are other advanced ways to capture and reuse code like using {{LinkToPost('Classes', 'class')}}.
+Also not functions don't always have {{linkToPost('parameters')}}.
