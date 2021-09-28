@@ -1,0 +1,42 @@
+## Definition
+
+{{linkToPost('Functions', 'function')}} are a set of instructions that perform a specific task, they are usually bundled together and given a name so it can be reused in different parts of your code.
+
+Functions may take in {{linkToPost('arguments', 'argument')}} and return results. Sometimes you will like some external code or a third-party developer to determine what to do with the output, in which case you will allow them to pass in a function as an argument and your function will pass the results to the external developers' function to perform whatever their function wants.
+
+Another case is in some {{linkToPost('programming languages', 'programming language')}} like Javascript, you can use callbacks if the function is going to take a while to finish up a task. In this case, you pass in a callback to continue performing some task once the original function is done computing what it needs to do.
+
+## Use cases and Examples
+
+Here is sample code in Javascript getting some data from a {{linkToPost('server')}} and then using a callback to print it out once the server returns the output.
+
+```
+fetch('http://example.com/message.json')
+  .then(function(response) {
+      return response.json();
+  })
+  .then(function(data){
+      console.log("print message:", data);
+  });
+
+console.log("second line will show up first");
+```
+
+**NB:** The output will look like this: 
+
+```
+second line will show up first
+print message: hello
+```
+
+The reason being that Javascript does not wait for the message to be returned from the server before moving onto the second line, so while the data is yet to be sent from the server, the second line is executed. When the server finally returns the result the callback will be ready to print it out to screen. Thus this part of the code:
+```
+ .then(function(data){
+      console.log("print message:" data);
+  });
+```
+
+## Summary
+
+Callbacks are very popular with the Javascript programming language because it's an {{linkToPost('asynchronous')}} language. Meaning, it doesn't always wait for one task to finish before moving on to the next, hence you provide a callback to capture outputs as and when parts of the code provide them. The use of callbacks in the language has been problematic leading to an issue referred to as {{linkToPost('callback hell')}}.
+Leading to the use of structures such as [async-await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
