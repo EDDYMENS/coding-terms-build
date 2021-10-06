@@ -10,7 +10,8 @@ In software development, a developer interacts with the database using a particu
 
 Databases are of many types.  Most categorization is based on how the data is structured and stored.
 
-Here are a few examples:
+**Here are a few examples:**
+
 Relational database: Uses the concepts of tables to store data. Each table comprises columns and rows. A relationship can be formed between tables as well.
 No SQL database: Relational databases require that the table structure be defined before storing any data. No SQL databases do not require a structure to be defined before use. It's up to the developer to maintain the data structure.
 
