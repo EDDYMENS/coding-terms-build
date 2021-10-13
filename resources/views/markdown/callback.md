@@ -1,8 +1,10 @@
 ## Definition
 
-{{linkToPost('Functions', 'function')}} are a set of instructions that perform a specific task, they are usually bundled together and given a name so it can be reused in different parts of your code.
+{{linkToPost('Functions', 'function')}} when used in code performs a set of predefined instructions, its similar to options on a washing machine where choosing one setting will wash your cloths at a specific temperature, for a set duration.
 
-Functions may take in {{linkToPost('arguments', 'argument')}} and return results. Sometimes you will like some external code or a third-party developer to determine what to do with the output, in which case you will allow them to pass in a function as an argument and your function will pass the results to the external developers' function to perform whatever their function wants.
+Functions may take in {{linkToPost('arguments', 'argument')}} and return results. Sometimes you will like some external code or a third-party developer to determine what to do with the output.
+
+In this case the third party developer defines what they will like to do with the output in their function then pass it into your function.
 
 Another case is in some {{linkToPost('programming languages', 'programming language')}} like Javascript, you can use callbacks if the function is going to take a while to finish up a task. In this case, you pass in a callback to continue performing some task once the original function is done computing what it needs to do.
 
@@ -38,5 +40,7 @@ The reason being that Javascript does not wait for the message to be returned fr
 
 ## Summary
 
-Callbacks are very popular with the Javascript programming language because it's an {{linkToPost('asynchronous')}} language. Meaning, it doesn't always wait for one task to finish before moving on to the next, hence you provide a callback to capture outputs as and when parts of the code provide them. The use of callbacks in the language has been problematic leading to an issue referred to as {{linkToPost('callback hell')}}.
-Leading to the use of structures such as [async-await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+Callbacks are very popular with the Javascript programming language because it's an {{linkToPost('asynchronous')}} language. Meaning, it doesn't always wait for one task to finish before moving on to the next, hence you provide a callback to capture outputs as and when parts of the code provide them. 
+
+The use of callbacks in the language has been problematic leading to an issue referred to as {{linkToPost('callback hell')}}.
+This has led to the use of structures such as [async-await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
