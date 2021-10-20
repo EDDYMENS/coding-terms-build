@@ -37,6 +37,6 @@ With the last example, you might have noticed we only converted the first number
 Casting can be performed between many data types, but you might end up with an undesired result sometimes. For example, what do you get if you try to cast a string to a number?
 Well in Javascript you will end up with a **NaN**, `parseInt("some text") // NaN`.
 
-Other {{linkToPost('programming languages', 'programming languages')}} interpret this differently. 
+Other {{linkToPost('programming languages', 'programming language')}} interpret this differently. 
 
 
