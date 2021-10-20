@@ -29,4 +29,4 @@ Think of what `!` means in our everyday world, if you see it on a signboard you 
 ## Summary
 
 Functions are the most basic way a developer can reuse any piece of code. There are other advanced ways to capture and reuse code like using {{LinkToPost('Classes', 'class')}}.
-Also not functions don't always have {{linkToPost('parameters')}}.
+Also not functions don't always have {{linkToPost('parameters', 'parameter')}}.

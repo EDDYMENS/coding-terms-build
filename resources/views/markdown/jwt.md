@@ -4,7 +4,7 @@ Most mobile apps on your phone need to communicate to a {{linkToPost('server')}}
 
 Some of these functionalities require that the user is verified. Unlike traditional web apps, where once a user is verified, the browser creates a {{linkToPost('cookie')}} to hold this {{linkToPost('state')}}, mobile apps have no such mechanism and rely on a different approach. Something {{linkToPost('stateless')}}
 
-This is also true for modern web apps built using modern frontend {{linkToPost('frameworks', 'web framework')}} with {{linkToPost('APIs')}} acting as an exchange medium to the server. 
+This is also true for modern web apps built using modern frontend {{linkToPost('frameworks', 'web framework')}} with {{linkToPost('APIs', 'API')}} acting as an exchange medium to the server. 
 
 A JSON web token (JWT) is a JSON object that is used to securely transport data over the internet (between two parties). The server encrypts authentication information stored as a {{linkToPost('JSON')}} object and sends it back to the app. The app can then send this encrypted data to the server any time the user's identity needs to be verified.
 

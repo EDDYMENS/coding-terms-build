@@ -1,6 +1,6 @@
 ## Definition
 
-Shell is an {{linkToPost('interpreter')}}, a program designed to run on UNIX-based {{linkToPost('operation systems', 'operation system')}}. To work with shell you can type out your instructions right in the terminal or write the instructions out as a script which will contain the instructions to be  executed by the shell interpreter.
+Shell is an {{linkToPost('interpreter')}}, a program designed to run on UNIX-based {{linkToPost('operating systems', 'operating system')}}. To work with shell you can type out your instructions right in the terminal or write the instructions out as a script which will contain the instructions to be  executed by the shell interpreter.
 
 Several commands can be executed using shell, from telling the time to manipulating files.
 
