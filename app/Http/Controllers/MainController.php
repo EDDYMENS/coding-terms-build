@@ -17,7 +17,7 @@ class MainController extends Controller
         try {
             $definition = Str::markdown(view('markdown.'.$title)->with(compact('termList'))->render());
         } catch(\Exception $e) {
-            dd($e);
+            // dd($e);
             $definition = Str::markdown('<center style="font-size:50px" class="mt-5"> Nothing Found</center>');
         }
         return view('term')->with(compact('definition', 'formattedTitle', 'termList', 'term'));
