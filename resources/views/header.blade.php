@@ -29,8 +29,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
     <link rel="manifest" href="/assets/favicons/site.webmanifest">
 
-    <title>Coding Terms</title>
-    
+   <meta name="google-site-verification" content="6vzv3E5M2knCHb09ihdXyAo3NUZWGAQQjGjY0RQ740M" />
 @if( app('request')->input('dev'))
 <link href="/assets/main.css" rel="stylesheet">
 @else
