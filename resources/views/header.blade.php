@@ -37,4 +37,13 @@
 @endif
     <!-- Custom styles -->
     <link href="/assets/style.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K7K2MR150P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-K7K2MR150P');
+</script>
   </head>
