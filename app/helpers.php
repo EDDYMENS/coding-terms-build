@@ -46,3 +46,15 @@ if(!function_exists('linkToPost') && !function_exists('undefinedLinks')) {
         return $title;
     }
 }
+
+if(!function_exists('getSiteMapData')) {
+    function getSiteMapData() {
+        $siteMapData = [];
+        $markDownFileList = array_slice(scandir(base_path().'/resources/views/markdown'), 2);
+        foreach($markDownFileList as $markdownFile) {
+            $term = str_replace('.md', '', $markdownFile);
+            $siteMapData[$term] = date("Y-m-d", filemtime(base_path().'/resources/views/markdown/'.$markdownFile));
+        }
+        return $siteMapData;
+    }
+}

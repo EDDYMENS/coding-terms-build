@@ -1,12 +1,35 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <!-- Primary Meta Tags -->
+    <title>Coding Terms | {{$title}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="title" content="Coding Terms | {{$title}}">
+    <meta name="description" content="{{($title == 'ALL TERMS')?'Explanation of programming and tech terms.': 'What is '.strtolower($title)}}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://codingterms.com/">
+    <meta property="og:title" content="Coding Terms | {{$title}}">
+    <meta property="og:description" content="{{($title == 'ALL TERMS')?'Explanation of programming and tech terms.': 'What is '.strtolower($title)}}">
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://codingterms.com/">
+    <meta property="twitter:title" content="Coding Terms | {{$title}}">
+    <meta property="twitter:description" content="{{($title == 'ALL TERMS')?'Explanation of programming and tech terms.': 'What is '.strtolower($title)}}">
+    <meta property="twitter:image" content="">
+    <meta charset="utf-8">
     <meta name="author" content="Eddymens">
-    <title>Coding Terms</title>
-    
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicons/site.webmanifest">
+
+   <meta name="google-site-verification" content="6vzv3E5M2knCHb09ihdXyAo3NUZWGAQQjGjY0RQ740M" />
 @if( app('request')->input('dev'))
 <link href="/assets/main.css" rel="stylesheet">
 @else
@@ -14,4 +37,13 @@
 @endif
     <!-- Custom styles -->
     <link href="/assets/style.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K7K2MR150P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-K7K2MR150P');
+</script>
   </head>

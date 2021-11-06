@@ -1,4 +1,4 @@
-@include('header')
+@include('header', ['title' => strtoupper($formattedTitle)])
 
 <body>
 
@@ -32,6 +32,7 @@
                 {!! $definition !!}
                 @include('definitionHeading')
             </div>
+              <a href="https://github.com/EDDYMENS/coding-terms-markdown" target="__blank" class="center-it"><b>Github</b></a>
           </div>
           <div class="col-1"></div>
           </article>
