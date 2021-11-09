@@ -1,6 +1,6 @@
 ## Definition
 
-The art of reorganizing your {{linkToPost('codebase')}}  without altering its original functionality is known as refactoring. 
+The art of reorganizing your {{linkToPost('codebase', 'code')}}  without altering its original functionality is known as refactoring. 
 
 The objective of refactoring is to enhance internal code by making changes that do not affect the code's outward behavior. The primary purpose of refactoring is to reduce {{linkToPost('technical debt')}} and make code easier to maintain in the future. 
 
