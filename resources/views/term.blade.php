@@ -7,6 +7,7 @@
       <h3>Coding Terms</h3>
     </a>
     @if($term == 'all-terms')
+    <link href="/term/{{getFirstTerm()}}" rel="prefetch" />
       <input class="form-control form-control-dark w-70 w-xs-100" type="text"
       placeholder="Search for a term" aria-label="Search" id="search" onkeyup="search()">
     @endif
@@ -52,3 +53,11 @@ function search(){var e,t,n;for(e=document.getElementById("search").value.toLowe
   <a href="/404" href="/sitemap.xml"></a>
 </template>
 </html>
+@if(Session::get('currentPageLinks'))
+  @foreach(Session::get('currentPageLinks') as $page)
+    <link rel="prefetch" href="/term/{{$page}}" />
+  @endforeach
+  @php
+  Session::forget('currentPageLinks')
+  @endphp
+@endif

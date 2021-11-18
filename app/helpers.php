@@ -39,6 +39,9 @@ if(!function_exists('linkToPost') && !function_exists('undefinedLinks')) {
         $isTitle = in_array($titleToPost.'.md', $postList);
         if( $isTitle || in_array($altTitleToPost.'.md', $postList)) {
             $titleToPost = ($isTitle)? $titleToPost : $altTitleToPost;
+            if(!$isMarkDown) {
+                Session::push('currentPageLinks', $titleToPost);
+            }
             return ($isMarkDown)?
                 '['.$title.']('.$titleToPost.'.md)'
                  :'['.$title.'](/term/'.$titleToPost.')';
@@ -56,5 +59,12 @@ if(!function_exists('getSiteMapData')) {
             $siteMapData[$term] = date("Y-m-d", filemtime(base_path().'/resources/views/markdown/'.$markdownFile));
         }
         return $siteMapData;
+    }
+}
+
+if(!function_exists('getFirstTerm')) {
+    function getFirstTerm() {
+        $terms = array_slice(scandir(base_path().'/resources/views/markdown'), 2);
+        return str_replace('.md', '', $terms[0]);; 
     }
 }
