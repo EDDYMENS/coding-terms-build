@@ -4,4 +4,4 @@ A Software Development Kit (SDK) is a set of code in the form of a library or ut
 Instead of just providing a document describing how another team can implement some piece of software, they anticipate the possible use cases and create {{linkToPost('boilerplate')}} code that others can then use.
 
 ## Use cases and Examples
-A popular use of SDKs is to integrate {{linkToPost('API')}} services like the one {{linkToPost('payment processors')}} provide.
+A popular use of SDKs is to integrate {{linkToPost('API')}} services like the one {{linkToPost('payment processors', 'payment processor')}} provide. 
