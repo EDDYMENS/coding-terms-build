@@ -55,7 +55,7 @@ function search(){var e,t,n;for(e=document.getElementById("search").value.toLowe
 </html>
 @if(Session::get('currentPageLinks'))
   @foreach(Session::get('currentPageLinks') as $page)
-    <link rel="prefetch" href="/term/{{$page}}" />
+    <link rel="prefetch" href="https://codingterms.com/term/{{$page}}" />
   @endforeach
   @php
   Session::forget('currentPageLinks')

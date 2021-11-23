@@ -31,14 +31,14 @@
 
    <meta name="google-site-verification" content="6vzv3E5M2knCHb09ihdXyAo3NUZWGAQQjGjY0RQ740M" />
 @if( app('request')->input('dev'))
-<link href="/assets/main.css" rel="prefetch" as="style">
+<link href="/assets/main.css" rel="prefetch">
 <link href="/assets/main.css" rel="stylesheet">
 @else
-<link href="/assets/main.min.css" rel="prefetch" as="style">
+<link href="/assets/main.min.css" rel="prefetch" >
 <link href="/assets/main.min.css" rel="stylesheet">
 @endif
     <!-- Custom styles -->
-    <link href="/assets/style.css" rel="prefetch" as="style">
+    <link href="/assets/style.css" rel="prefetch">
     <link href="/assets/style.css" rel="stylesheet">
     <link href="/" rel="prefetch" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
