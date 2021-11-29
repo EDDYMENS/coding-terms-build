@@ -1,7 +1,7 @@
 ## Definition
 We get a much better web experience today than we did in the early 2000s. The growth and improvement of web technologies have fostered these improvements.
 
-Among the improvement are the growth of JavaScript (https://developer.mozilla.org/en-US/docs/Web/JavaScript) [[linkToPost('programming language')]] and the introduction of {{linkToPost('Single page applications SPA', 'Single page application SPA')}}.
+Among the improvement are the growth of [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) {{linkToPost('programming language')}} and the introduction of {{linkToPost('Single page applications SPA', 'Single page application SPA')}}.
 
 The goal of frontend frameworks is to bring all of this together so developers can provide a modern web experience more easily.
 
