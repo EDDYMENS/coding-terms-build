@@ -5,20 +5,20 @@
     <title>Coding Terms | {{$title}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="title" content="Coding Terms | {{$title}}">
-    <meta name="description" content="{{($title == 'ALL TERMS')?'Explanation of programming and tech terms. Coding terms dictionary Coding terms dictionary': 'What is '.strtolower($title)}}">
+    <meta name="description" content="{{($title == 'ALL TERMS')?'Explanation of programming and tech terms. Coding terms dictionary Coding terms dictionary': 'What is '.strtolower($title)}} in programming">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://codingterms.com/">
     <meta property="og:title" content="Coding Terms | {{$title}}">
-    <meta property="og:description" content="{{($title == 'ALL TERMS')?'Explanation of programming and tech terms. Coding terms dictionary': 'What is '.strtolower($title)}}">
+    <meta property="og:description" content="{{($title == 'ALL TERMS')?'Explanation of programming and tech terms. Coding terms dictionary': 'What is '.strtolower($title)}} in programming">
     <meta property="og:image" content="">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://codingterms.com/">
     <meta property="twitter:title" content="Coding Terms | {{$title}}">
-    <meta property="twitter:description" content="{{($title == 'ALL TERMS')?'Explanation of programming and tech terms. Coding terms dictionary': 'What is '.strtolower($title)}}">
+    <meta property="twitter:description" content="{{($title == 'ALL TERMS')?'Explanation of programming and tech terms. Coding terms dictionary': 'What is '.strtolower($title)}} in programming">
     <meta property="twitter:image" content="">
     <meta charset="utf-8">
     <meta name="author" content="Eddymens">
