@@ -5,8 +5,3 @@ This issues can include not being able to maintain or add new features to the so
 ## Use cases and Examples
 The term code smell is used often when a part of a codebase is written in a way that it violates some coding pattern.
 For example one way of writing software that can lead to code smells is {{linkToPost('spaghetti code', 'spaghetti coding')}}
-
-## Summary
-Abstraction happens at different levels of computing from logic gates, compilers to the code itself. 
-
-It greatly helps programmers to focus on newer problems instead of every bolt and nut of their software or the hardware they are working with.
