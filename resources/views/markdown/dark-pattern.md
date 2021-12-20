@@ -11,4 +11,4 @@ There are many types of dark patterns and below are a few of them:
 - **Hidden Cost**: This is when the cost of purchasing a product or service is not made clear enough and the user ends up with a bill greater than what was made obvious.
 
 ## Summary
-Dark patterns at the moment are not illegal but more of an ethical problem. This can somewhat be seen as an extreme growth hacking tactic but one that leads to bad user experience and might end up not being a long-term approach to product or company growth.
+Dark patterns at the moment are not illegal but more of an ethical problem. This can be seen as an extreme growth hacking tactic, but one that could result in bad user experience and doesn't seem to be a long-term solution for product growth.
