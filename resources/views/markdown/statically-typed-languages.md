@@ -19,6 +19,12 @@ name = "John Doe"
 In a statically typed language, once you define a type for a variable, the variable can only hold values of that type and nothing else. 
 However, some programming languages do not require the developer to define a type for variables and the same variable can hold different values of different data types at any point in time. Such programming languages are said to be {{linkToPost('dynamically typed', 'dynamically-typed-languages')}}. Examples include Python and PHP.
 
+```
+// An example in PHP where it stored name as a string then later as an array
+name = "John Doe";
+name = ["John", "Mark", "James"];
+```
+
 ## Summary
 
 Being able to know the size and type of data to be stored helps the compiler to further optimize the execution of a program.
